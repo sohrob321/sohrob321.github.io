@@ -62,7 +62,7 @@ body {
   /*-webkit-filter: blur(8px);*/
 }
 
-#my-name, #my-story, #my-projects, #my-links, #my-resume {
+#my-name, #my-story, #my-projects, #my-links {
   color: black;
   font-family: sans-serif;
   font-size: 80px;
@@ -72,12 +72,25 @@ body {
   position: absolute;
   top: 27%;
   left: 50%;
-	transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#my-resume {
+  color: black;
+  font-family: sans-serif;
+  font-size: 80px;
+  font-weight: 100;
+  text-align: center;
+  width: 800px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #resume-pdf {
 	position: absolute;
-	top: 45%;
+	top: 26%;
     left: 50%;
 	transform: translate(-50%, 0%);
 }
