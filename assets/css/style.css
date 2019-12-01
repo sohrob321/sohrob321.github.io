@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif;
+	font-family: Calibri, Times New Roman;
 
 	margin-left: 0px;
 	margin-bottom: 0px;
@@ -14,14 +14,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100vw;
-}
-
-#current-page {
-	position: relative;
-	font-family: sans-serif;
-	font-weight: bold;
-	margin-left: 20px;
-	color: white;
+    height: 30px;
 }
 
 .topbar-button {
@@ -38,11 +31,20 @@ body {
 .topbar-link {
 	text-decoration: none;
 }
+
 .topbar-text {
 	text-decoration: none;
-	font-family: sans-serif;
+	font-family: Calibri;
 	color: white;
+    font-size: 20px;
+}
 
+#current-page {
+    font-family: Calibri;
+    font-size: 20px;
+    position: relative;
+    margin-left: 20px;
+    color: white;
 }
 
 .topbar-text:hover {
@@ -61,7 +63,7 @@ body {
 
 #my-name, #my-story, #my-projects, #my-links {
   color: black;
-  font-family: sans-serif;
+  font-family: Calibri, Times New Roman;
   font-size: 80px;
   font-weight: 100;
   text-align: center;
@@ -74,7 +76,7 @@ body {
 
 #my-resume {
   color: black;
-  font-family: sans-serif;
+  font-family: Calibri, Times New Roman;
   font-size: 80px;
   font-weight: 100;
   text-align: center;
@@ -108,7 +110,7 @@ body {
 
 #text-headline {
 	color: black;
-	font-family: sans-serif;
+	font-family: Calibri, Times New Roman;
 
     font-size: 34px;
     font-weight: 100;
@@ -118,11 +120,12 @@ body {
     top: 45%;
     left: 50%;
 	transform: translate(-50%, -50%);
-		/*margin: 0 auto;*/
+
 }
 
 #year {
     color: black;
+    font-family: Calibri, Times New Roman;
     font-size: 20px;
     font-weight: 100;
     text-align: center;
@@ -137,6 +140,7 @@ body {
 
 #main-text {
     color: black;
+    font-family: Calibri, Times New Roman;
     font-size: 20px;
     font-weight: 100;
     text-align: center;
@@ -162,11 +166,12 @@ body {
 
 #story-box {
 	position: absolute;
-	top: 85%;
+	top: 75%;
 	left: 50%;
 	transform: translate(-50%, -70%);
 	width: 800px;
 	height: 400px;
+    background-color: white;
 	border-radius: 10px;
 	opacity: 0.7;
 	margin-bottom: 70px;
@@ -174,6 +179,7 @@ body {
 
 #story {
     color: black;
+    font-family: Calibri, Times New Roman;
     font-size: 25px;
     font-weight: 100;
     text-align: center;
@@ -239,7 +245,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
+    width: 800px;
 }
 .lightbox img {
     width: 100%;
