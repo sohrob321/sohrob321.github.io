@@ -209,6 +209,7 @@ body {
     left: 50%;
     transform: translate(-50%, -30%);
     width: 80%;
+    height: 60%
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -216,7 +217,7 @@ body {
 
 }
 #pictures img {
-    width: 25%;
+    width: 20%;
     margin: 0 2%;
     transition: 0.3s;
 }
