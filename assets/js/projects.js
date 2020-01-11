@@ -27,6 +27,11 @@ function unhideLightbox2() {
 }
 document.getElementById("picture-2").onclick = unhideLightbox2;
 
+function unhideLightbox3() {
+	unhideLightbox("scheme");
+}
+document.getElementById("picture-3").onclick = unhideLightbox3;
+
 
 function closeLightbox(lightboxID) {
 	document.getElementById('lightbox-overlay').classList.add('hidden');

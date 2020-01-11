@@ -196,7 +196,7 @@ body {
   font-size: 80px;
   font-weight: 100;
   text-align: center;
-  width: 800px;
+  width: 80%;
   position: absolute;
   top: 27%;
   left: 50%;
@@ -208,13 +208,16 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -30%);
-    width: 680px;
+    width: 80%;
     margin: auto;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
 #pictures img {
-    width: 200px;
-    margin: 0 10px;
+    width: 25%;
+    margin: 0 2%;
     transition: 0.3s;
 }
 #pictures img:hover {
@@ -258,35 +261,6 @@ a {
     color: inherit;
     text-decoration: none;
 }
-
-.question {
-    box-shadow: 0 1px 2px rgba(0,0,0,0.12);
-    background: white;
-    padding: 18px;
-    font-size: 12px;
-    margin-bottom: 6px;
-    border-radius: 2px;
-    text-align: center;
-    font-weight: 700;
-    color: #4a4a4a;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.question:hover {
-    opacity: 0.8;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.16);
-}
-
-#index {
-    width: 240px;
-    position: absolute;
-    left: calc(50% - 120px);
-    top: calc(50% - 206px);
-}
-
-
-
 
 
 
@@ -414,7 +388,7 @@ a {
 /*mobile stuff*/
 
 
-@media only screen and (min-width: 812px) and (orientation: landscape){
+@media all and (min-width: 812px) and (orientation: landscape){
 
 
 /* fix about.html on mobile horizontal */
@@ -431,6 +405,33 @@ a {
   border-radius: 10px;
   opacity: 0.7;
   margin-bottom: 20%;
+}
+
+}
+
+
+@media only screen and (min-width: 812px) and (orientation: portrait) {
+/* column for mobile on projects*/
+
+
+#pictures {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pictures img {
+    width: 50%;
+    margin: 5% 5%;
+    transition: 0.3s;
 }
 
 }
