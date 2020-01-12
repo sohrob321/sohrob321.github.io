@@ -409,7 +409,7 @@ a {
 }
 
 
-@media only screen and (min-width: 812px) and (orientation: portrait) {
+@media only screen and (min-width: 375px) and (orientation: portrait) {
 /* column for mobile on projects*/
 
 
