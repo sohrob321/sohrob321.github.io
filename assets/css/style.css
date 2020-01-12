@@ -227,7 +227,7 @@ body {
     display: none;
 }
 #lightbox-overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -236,10 +236,11 @@ body {
 }
 .lightbox {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 800px;
+    padding-bottom: 5%;
+    width: 80%;
 }
 .lightbox img {
     width: 100%;
@@ -247,9 +248,10 @@ body {
     border-top-left-radius: 5px;
 }
 .lightbox .caption {
+    top: 200px;
     box-sizing: border-box;
     width: 100%;
-    padding: 20px;
+    padding: 2.5%;
     background: white;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -387,7 +389,7 @@ a {
 /*mobile stuff*/
 
 
-@media all and (min-width: 812px) and (orientation: landscape){
+@media all and (max-width: 1000px) and (orientation: landscape){
 
 
 /* fix about.html on mobile horizontal */
@@ -406,10 +408,20 @@ a {
   margin-bottom: 20%;
 }
 
+/*
+.lightbox {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 5%;
+    width: 80%;
+}
+*/
 }
 
 
-@media only screen and (min-width: 375px) and (orientation: portrait) {
+@media only screen and (max-width: 500px) and (orientation: portrait) {
 /* column for mobile on projects*/
 
 
